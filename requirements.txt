@@ -7,6 +7,7 @@ googlesearch-python==1.0.1
 gitpython
 humanize
 httpx
+reportlab
 heroku3
 requests
 motor>=3.1.1
