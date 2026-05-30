@@ -1,6 +1,6 @@
 flask
 flask_restful
-aiohttp
+aiohttp==3.9.5
 aiofiles
 bs4
 googlesearch-python==1.0.1
