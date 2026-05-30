@@ -5,7 +5,11 @@ API_ID = os.environ.get("API_ID")
 API_HASH = os.environ.get("API_HASH")
 STRING_SESSION1 = os.environ.get("STRING_SESSION1")
 
-# ✅ HANYA INI — app dengan session_string
+# ✅ TAMBAH INI — clients dan ids
+clients = []
+ids = []
+
+# ✅ app dengan session_string
 app = Client(
     "my_client",
     api_id=int(API_ID),
